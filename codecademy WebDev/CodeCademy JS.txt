@@ -1,0 +1,64 @@
+1.NTRODUCTION TO JAVASCRIPT
+Review Types and Operators
+Let's take one more glance at the concepts we just learned:
+
+Four essential data types in JavaScript include strings, numbers, booleans, and null.
+Data is printed, or logged, to the console with console.log().
+Four built-in mathematical operators include +, -, *, and /.
+JavaScript associates certain properties with different data types.
+JavaScript has built-in methods for different data types.
+Libraries are collections of methods that can be called without an instance.
+You can write single-line comments with // and multi-line comments between /* and */.
+
+2.VARIABLES
+Review Variables
+Nice work! This lesson covered a lot of foundational skills that you will often use in your future programming endeavors.
+
+Let's review what we learned:
+
+Variables hold reusable data in a program.
+JavaScript will throw an error if you try to reassign const variables.
+You can reassign variables that you create with the let keyword.
+Unset variables store the primitive data type undefined.
+Mathematical assignment operators make it easy to calculate a new value and assign it to the same variable.
+The + operator is used to interpolate (combine) multiple strings.
+In JavaScript ES6, backticks (`) and ${} are used to interpolate values into a string.
+
+3.CONDITIONAL STATEMENTS
+Review
+Way to go! Here are some of the major concepts for conditionals:
+
+An if statement checks a condition and will execute a task if that condition evaluates to true.
+if...else statements make binary decisions and execute different code based on a condition.
+We can add more conditions using else if statements.
+Comparison operators, including <, >, <=, >=, ===, and !== can compare two values.
+The logical and operator, &&, checks if both expressions are truthy.
+The logical operator ||, or "or", checks if either expression is truthy.
+The bang operator, !, switches the truthiness and falsiness of a value.
+The ternary operator is shorthand to simplify if...else statements. myName ? console.log(): console.log();
+The switch statement can make checking for matching expressions easier than writing multiple else if statements.
+
+4.FUNCTIONS
+Review Functions
+Give yourself a pat on the back, you just navigated through functions!
+
+In this lesson, we covered some important concepts about functions:
+
+A function is a reusable block of code that groups together a sequence of statements to perform a specific task.
+
+A function declaration : Diagram showing the syntax of a function declaration
+
+A parameter is a named variable inside a function's block which will be assigned the value of the argument passed in when the function is invoked: JavaScript syntax for declaring a function with parameters
+
+To call a function in your code: Diagram showing the syntax of invoking a function
+
+ES6 introduces new ways of handling arbitrary parameters through default parameters which allow us to assign a default value to a parameter in case no argument is passed into the function.
+
+To return a value from a function, we use a return statement.
+
+To define a function using function expressions: defining a function expression
+
+To define a function using arrow function notation: 
+Function definition can be made concise using concise arrow notation: comparing single line and multiline arrow functions
+
+It's good to be aware of the differences between function expressions, arrow functions, and function declarations. As you program more in JavaScript, you'll see a wide variety of how these function types are used.
